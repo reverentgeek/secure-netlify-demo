@@ -1,0 +1,25 @@
+{
+  "name": "secure-serverless-tutorial",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf dist && parcel client/index.html",
+    "build": "rimraf dist && netlify-lambda install && parcel build client/index.html"
+  },
+  "keywords": [],
+  "author": "David Neal <david@reverentgeek.com> (https://reverentgeek.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-reverentgeek": "^3.0.0",
+    "netlify-cli": "^2.58.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@okta/okta-signin-widget": "^4.2.0",
+    "axios": "^0.19.2",
+    "netlify-lambda": "^1.6.3",
+    "parcel": "^1.12.4"
+  }
+}

@@ -1,0 +1,17 @@
+# dependencies installed by npm
+node_modules
+
+# dev environment variables
+.env
+
+# macOS related files
+.DS_Store
+
+# Local Netlify folder
+.netlify
+
+# Distribution folder
+dist/
+
+# cache folder
+.cache

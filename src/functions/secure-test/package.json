@@ -1,0 +1,15 @@
+{
+  "name": "secure-test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "secure-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Neal <david@reverentgeek.com> (https://reverentgeek.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@okta/jwt-verifier": "^1.0.0"
+  }
+}
