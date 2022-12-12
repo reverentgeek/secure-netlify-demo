@@ -20,6 +20,6 @@
     "@okta/okta-signin-widget": "^4.2.0",
     "axios": "^0.21.1",
     "netlify-lambda": "^1.6.3",
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.1"
   }
 }
